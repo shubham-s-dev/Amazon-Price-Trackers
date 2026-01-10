@@ -16,29 +16,6 @@ A smart automation bot built with Python and Selenium that monitors Amazon produ
 * **Selenium WebDriver** (Automation)
 * **SMTP Library** (Email Notification)
 
-## How to Setup
-
-1.  **Clone the Repository:**
-    ```bash
-    git clone [https://github.com/YOUR_USERNAME/Amazon-Price-Tracker.git](https://github.com/YOUR_USERNAME/Amazon-Price-Tracker.git)
-    cd Amazon-Price-Tracker
-    ```
-
-2.  **Install Dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3.  **Configure Email:**
-    * Open the script and locate the `SENDER_EMAIL` section.
-    * Generate a **Google App Password** (Don't use your real Gmail password).
-    * *Note: For security, never push your real passwords to GitHub.*
-
-4.  **Run the Bot:**
-    ```bash
-    python amazon_notifier.py
-    ```
-
 ## Logic Breakdown
 
 The bot follows this decision-making process:
